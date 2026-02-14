@@ -1,40 +1,375 @@
-<!DOCTYPE html>                                                                                                            
-  <html lang="en">                                                                                                           
-  <head>                                       
-      <meta charset="UTF-8">                                                                                                 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">       
-      <title>Privacy Policy — Kids Story Galaxy</title>                                                                      
-      <style>                                                                      
+ 8          * { margin: 0; padding: 0; box-sizing: border-box; }                                                       
+       9          body {                                                                                                     
+      10              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif       
+          ;                                                                                                                  
+      11 -            line-height: 1.6;                                                                                      
+      11 +            line-height: 1.7;                                                                                      
+      12              color: #333;                                                 
+      13              background: #fafafa;
+      14              padding: 20px;
+      15          }
+      16          .container {
+      17 -            max-width: 680px;                                                                               
+      17 +            max-width: 720px;                                                                               
+      18              margin: 0 auto;
+      19              background: #fff;
+      20 -            padding: 32px 28px;                                                                             
+      20 +            padding: 36px 32px;                                                                             
+      21              border-radius: 12px;
+      22              box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      23          }
+      24          h1 {
+      25 -            font-size: 1.6em;                                                                               
+      25 +            font-size: 1.7em;                                                                               
+      26              margin-bottom: 4px;
+      27              color: #1a1a2e;
+      28          }
+      29          .subtitle {
+      30              color: #888;
+      31              font-size: 0.9em;
+      32 -            margin-bottom: 24px;                                                                            
+      32 +            margin-bottom: 28px;                                                                            
+      33          }
+      34          h2 {
+      35 -            font-size: 1.15em;                                                                              
+      36 -            margin-top: 24px;                                                                               
+      37 -            margin-bottom: 8px;                                                                             
+      35 +            font-size: 1.2em;                                                                               
+      36 +            margin-top: 28px;                                                                               
+      37 +            margin-bottom: 10px;                                                                            
+      38              color: #1a1a2e;
+      39          }
+      40          p, li {
+     ...
+      42              margin-bottom: 10px;
+      43          }
+      44          ul {
+      45 -            padding-left: 20px;                                                                             
+      46 -            margin-bottom: 12px;                                                                            
+      45 +            padding-left: 22px;                                                                             
+      46 +            margin-bottom: 14px;                                                                            
+      47          }
+      48          a { color: #4a90d9; text-decoration: none; }
+      49          a:hover { text-decoration: underline; }
+      50          .highlight {
+      51              background: #f0f7ff;
+      52              border-left: 3px solid #4a90d9;
+      53 -            padding: 12px 16px;                                                                             
+      53 +            padding: 14px 18px;                                                                             
+      54              border-radius: 6px;
+      55 -            margin: 16px 0;                                                                                 
+      55 +            margin: 18px 0;                                                                                 
+      56          }
+      57 +        .pricing-table {                                                                                    
+      58 +            width: 100%;                                                                                    
+      59 +            border-collapse: collapse;                                                                      
+      60 +            margin: 14px 0;                                                                                 
+      61 +            font-size: 0.93em;                                                                              
+      62 +        }                                                                                                   
+      63 +        .pricing-table th, .pricing-table td {                                                              
+      64 +            text-align: left;                                                                               
+      65 +            padding: 8px 12px;                                                                              
+      66 +            border-bottom: 1px solid #eee;                                                                  
+      67 +        }                                                                                                   
+      68 +        .pricing-table th {                                                                                 
+      69 +            background: #f8f9fb;                                                                            
+      70 +            font-weight: 600;                                                                               
+      71 +            color: #1a1a2e;                                                                                 
+      72 +        }                                                                                                   
+      73          .footer {
+      58 -            margin-top: 32px;                                                                               
+      59 -            padding-top: 16px;                                                                              
+      74 +            margin-top: 36px;                                                                               
+      75 +            padding-top: 18px;                                                                              
+      76              border-top: 1px solid #eee;
+      77              font-size: 0.85em;
+      78              color: #999;
+      79              text-align: center;
+      80          }
+      81 +        .footer a { color: #999; }                                                                          
+      82          @media (max-width: 480px) {
+      83              body { padding: 12px; }
+      67 -            .container { padding: 20px 16px; }                                                              
+      68 -            h1 { font-size: 1.35em; }                                                                       
+      84 +            .container { padding: 22px 16px; }                                                              
+      85 +            h1 { font-size: 1.4em; }                                                                        
+      86          }
+      87      </style>
+      88  </head>
+     ...
+       92          <p class="subtitle">Kids Story Galaxy &middot; Last updated: February 14, 2026</p>
+       93  
+       94          <div class="highlight">
+       78 -            <strong>Summary:</strong> Kids Story Galaxy does not collect, store, or share any personal data
+          -. All app data stays on your device.                                                                       
+       95 +            <strong>Summary:</strong> Kids Story Galaxy does <strong>not</strong> collect, store, transmit,
+          + or share any personal data. All app data stays on your device. We have no servers, no accounts, and no tra
+          +cking.                                                                                                     
+       96          </div>
+       97  
+       98          <h2>1. About This App</h2>
+       82 -        <p>Kids Story Galaxy is an interactive storybook app designed for children ages 3&ndash;12. It is d
+          -eveloped by Fadi Masud and is available on the Apple App Store.</p>                                        
+       99 +        <p>Kids Story Galaxy ("the App") is an interactive storybook application designed for children ages
+          + 3&ndash;12, featuring narrated stories, mini-games, coloring activities, and achievement badges. The App i
+          +s developed and operated by:</p>                                                                           
+      100 +        <p><strong>Fadi Masud</strong><br>                                                                 
+      101 +        Email: <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>                    
+      102 +        <p>The App is available on the Apple App Store and is intended primarily for use by children under 
+          +the supervision of a parent or legal guardian.</p>                                                         
+      103  
+       84 -        <h2>2. Data Collection</h2>                                                                        
+       85 -        <p>We do <strong>not</strong> collect any personal information from users, including children. Spec
+          -ifically:</p>                                                                                              
+      104 +        <h2>2. Information We Collect</h2>                                                                 
+      105 +        <p>We do <strong>not</strong> collect any personal information from any user, including children. S
+          +pecifically:</p>                                                                                           
+      106          <ul>
+       87 -            <li>No names, email addresses, or account creation required</li>                               
+       88 -            <li>No location data collected</li>                                                            
+       89 -            <li>No photos, contacts, or device identifiers accessed</li>                                   
+       90 -            <li>No analytics or tracking SDKs included</li>                                                
+       91 -            <li>No advertising of any kind</li>                                                            
+       92 -            <li>No third-party data-collection services</li>                                               
+      107 +            <li>No names, email addresses, phone numbers, or physical addresses</li>                       
+      108 +            <li>No user accounts, registration, or login of any kind</li>                                  
+      109 +            <li>No photographs, videos, or audio recordings</li>                                           
+      110 +            <li>No contacts or address book access</li>                                                    
+      111 +            <li>No location or geolocation data</li>                                                       
+      112 +            <li>No device identifiers, IP addresses, or persistent identifiers</li>                        
+      113 +            <li>No browsing history or search queries</li>                                                 
+      114 +            <li>No cookies, web beacons, or similar technologies</li>                                      
+      115 +            <li>No analytics, diagnostics, or usage data transmitted off-device</li>                       
+      116          </ul>
+      117  
+      118          <h2>3. Local Data Storage</h2>
+       96 -        <p>The app stores the following data <strong>locally on your device only</strong> to provide its fe
+          -atures:</p>                                                                                                
+      119 +        <p>To provide its features, the App stores the following data <strong>locally on your device only</
+          +strong>:</p>                                                                                               
+      120          <ul>
+       98 -            <li>Reading progress and earned stars</li>                                                     
+       99 -            <li>Coloring masterpiece images</li>                                                           
+      100 -            <li>Achievement badges and reading streaks</li>                                                
+      101 -            <li>User preferences (language, theme, narration settings)</li>                                
+      121 +            <li>Reading progress, earned stars, and game scores</li>                                       
+      122 +            <li>Coloring artwork saved as images</li>                                                      
+      123 +            <li>Achievement badges and reading streak history</li>                                         
+      124 +            <li>User preferences (selected language, theme, age group, narration settings)</li>            
+      125 +            <li>Subscription status (verified locally via Apple StoreKit)</li>                             
+      126          </ul>
+      103 -        <p>This data is never transmitted off your device. It can be removed by deleting the app.</p>      
+      127 +        <p>This data is stored using standard iOS mechanisms (UserDefaults and the app's Documents director
+          +y). It is <strong>never transmitted, uploaded, or shared</strong> with any server, service, or third party.
+          + All local data can be completely removed by deleting the App from your device.</p>                        
+      128  
+      105 -        <h2>4. Children's Privacy (COPPA)</h2>                                                             
+      106 -        <p>Kids Story Galaxy is designed with children's privacy as a top priority. We comply with the Chil
+          -dren's Online Privacy Protection Act (COPPA) and similar regulations worldwide:</p>                        
+      129 +        <h2>4. Children&rsquo;s Privacy (COPPA Compliance)</h2>                                            
+      130 +        <p>Kids Story Galaxy is designed for children and is listed in the Kids category on the Apple App S
+          +tore. We take children&rsquo;s privacy extremely seriously and fully comply with the Children&rsquo;s Onlin
+          +e Privacy Protection Act (COPPA), the EU General Data Protection Regulation (GDPR) as it applies to childre
+          +n, and Apple&rsquo;s guidelines for Kids category apps.</p>                                                
+      131          <ul>
+      108 -            <li>No personal information is collected from children (or any user)</li>                      
+      109 -            <li>No user accounts or login required</li>                                                    
+      110 -            <li>No social features, chat, or user-generated content shared online</li>                     
+      111 -            <li>No behavioral tracking or profiling</li>                                                   
+      132 +            <li><strong>No personal information is collected</strong> from children or any user &mdash; not
+          + even anonymized or aggregated data</li>                                                                   
+      133 +            <li><strong>No user accounts or login</strong> are required or available</li>                  
+      134 +            <li><strong>No social features</strong> &mdash; no chat, messaging, forums, user-generated cont
+          +ent sharing, or communication with other users</li>                                                        
+      135 +            <li><strong>No behavioral tracking or profiling</strong> of any kind</li>                      
+      136 +            <li><strong>No third-party analytics or advertising SDKs</strong> are included in the App</li> 
+      137 +            <li><strong>No data is transmitted</strong> to any external server, including our own</li>     
+      138 +            <li>Children <strong>cannot make any personal information publicly available</strong> through t
+          +he App</li>                                                                                                
+      139 +            <li>We do <strong>not</strong> condition a child&rsquo;s participation in any activity on provi
+          +ding personal information</li>                                                                             
+      140          </ul>
+      141 +        <p>Since we collect absolutely no personal data, there is no data to review, delete, or restrict. H
+          +owever, if you are a parent or guardian and have any concerns, you may contact us at <a href="mailto:suppor
+          +t@cryptolive.blog">support@cryptolive.blog</a> and we will promptly address your inquiry.</p>              
+      142  
+      114 -        <h2>5. Subscriptions</h2>                                                                          
+      115 -        <p>Kids Story Galaxy offers optional auto-renewable subscriptions to unlock all stories. Subscripti
+          -ons are managed entirely by Apple through the App Store:</p>                                               
+      143 +        <h2>5. Parental Rights</h2>                                                                        
+      144 +        <p>As a parent or legal guardian, you have the right to:</p>                                       
+      145          <ul>
+      117 -            <li><strong>Monthly:</strong> $6.99/month</li>                                                 
+      118 -            <li><strong>Quarterly:</strong> $14.99 every 3 months</li>                                     
+      119 -            <li><strong>Semi-Annual:</strong> $24.99 every 6 months</li>                                   
+      120 -            <li><strong>Annual:</strong> $34.99/year</li>                                                  
+      146 +            <li>Review any personal information collected from your child &mdash; we collect none</li>     
+      147 +            <li>Request deletion of any personal information &mdash; we store none</li>                    
+      148 +            <li>Refuse further collection of your child&rsquo;s information &mdash; we collect none</li>   
+      149 +            <li>Remove all locally stored app data by deleting the App from your device</li>               
+      150          </ul>
+      122 -        <p>Payment is charged to your Apple ID account at confirmation of purchase. Subscriptions auto-rene
+          -w unless turned off at least 24 hours before the end of the current period. You can manage or cancel subscr
+          -iptions in your device's Settings &gt; Apple ID &gt; Subscriptions.</p>                                    
+      123 -        <p>We do not have access to your payment information. All transactions are processed securely by Ap
+          -ple.</p>                                                                                                   
+      151 +        <p>Purchasing features (subscriptions) are handled exclusively through Apple&rsquo;s App Store, whi
+          +ch requires parental authentication (password, Face ID, or Touch ID). The App supports Apple&rsquo;s Ask to
+          + Buy feature for children&rsquo;s accounts managed through Family Sharing.</p>                             
+      152  
+      153          <h2>6. Third-Party Services</h2>
+      126 -        <p>The app does not integrate any third-party analytics, advertising, or tracking services. The onl
+          -y external service used is the Apple App Store for subscription processing.</p>                            
+      154 +        <p>The App does <strong>not</strong> integrate any third-party services for analytics, advertising,
+          + tracking, or data collection. The only external service interaction is:</p>                               
+      155 +        <ul>                                                                                               
+      156 +            <li><strong>Apple App Store / StoreKit:</strong> Used solely for processing subscription purcha
+          +ses and verifying subscription status. This is handled entirely by Apple&rsquo;s operating system. We do no
+          +t have access to your payment information, Apple ID, or any account details.</li>                          
+      157 +        </ul>                                                                                              
+      158 +        <p>No data about your child or your usage of the App is shared with any third party, including Appl
+          +e (beyond what Apple collects independently through its own operating system and App Store).</p>           
+      159  
+      128 -        <h2>7. Changes to This Policy</h2>                                                                 
+      129 -        <p>We may update this privacy policy from time to time. Any changes will be reflected on this page 
+          -with an updated "Last updated" date. Continued use of the app after changes constitutes acceptance of the r
+          -evised policy.</p>                                                                                         
+      160 +        <h2>7. Subscriptions</h2>                                                                          
+      161 +        <p>Kids Story Galaxy offers optional auto-renewable subscriptions to unlock additional content. Sub
+          +scriptions are managed entirely by Apple through the App Store.</p>                                        
+      162 +        <table class="pricing-table">                                                                      
+      163 +            <tr><th>Plan</th><th>Price</th><th>Billing Period</th></tr>                                    
+      164 +            <tr><td>Monthly</td><td>$6.99</td><td>Every month</td></tr>                                    
+      165 +            <tr><td>Quarterly</td><td>$14.99</td><td>Every 3 months</td></tr>                              
+      166 +            <tr><td>Semi-Annual</td><td>$24.99</td><td>Every 6 months</td></tr>                            
+      167 +            <tr><td>Annual</td><td>$34.99</td><td>Every year</td></tr>                                     
+      168 +        </table>                                                                                           
+      169 +        <ul>                                                                                               
+      170 +            <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>              
+      171 +            <li>Subscriptions automatically renew unless canceled at least 24 hours before the end of the c
+          +urrent period.</li>                                                                                        
+      172 +            <li>Your account will be charged for renewal within 24 hours prior to the end of the current pe
+          +riod.</li>                                                                                                 
+      173 +            <li>You can manage or cancel your subscription at any time in your device&rsquo;s Settings &gt;
+          + Apple ID &gt; Subscriptions.</li>                                                                         
+      174 +            <li>No cancellation of the current subscription period is permitted once purchased.</li>       
+      175 +        </ul>                                                                                              
+      176 +        <p>We do not have access to your payment information, credit card details, or Apple ID. All transac
+          +tions are processed securely by Apple.</p>                                                                 
+      177  
+      131 -        <h2>8. Contact</h2>                                                                                
+      132 -        <p>If you have questions about this privacy policy or the app, please contact us at:</p>           
+      133 -        <p><a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>                        
+      178 +        <h2>8. Data Security</h2>                                                                          
+      179 +        <p>Since we do not collect or transmit any data, there is no risk of data breach from our services.
+          + All data stored locally on your device is protected by your device&rsquo;s built-in security features (pas
+          +scode, Face ID, Touch ID, encryption).</p>                                                                 
+      180  
+      181 +        <h2>9. International Users (GDPR &amp; Other Regulations)</h2>                                     
+      182 +        <p>For users in the European Economic Area (EEA), United Kingdom, or other jurisdictions with data 
+          +protection laws:</p>                                                                                       
+      183 +        <ul>                                                                                               
+      184 +            <li><strong>Data Controller:</strong> Fadi Masud (<a href="mailto:support@cryptolive.blog">supp
+          +ort@cryptolive.blog</a>)</li>                                                                              
+      185 +            <li><strong>Legal Basis for Processing:</strong> We do not process any personal data. No legal 
+          +basis is required as no data collection occurs.</li>                                                       
+      186 +            <li><strong>Data Subject Rights:</strong> You have the right to access, rectify, erase, restric
+          +t, port, and object to the processing of your personal data. Since we collect no personal data, these right
+          +s are satisfied by default.</li>                                                                           
+      187 +            <li><strong>International Transfers:</strong> No personal data is transferred internationally o
+          +r to any server.</li>                                                                                      
+      188 +            <li><strong>Right to Complain:</strong> You may lodge a complaint with your local data protecti
+          +on supervisory authority at any time.</li>                                                                 
+      189 +            <li><strong>Automated Decision-Making:</strong> The App does not perform any automated decision
+          +-making or profiling.</li>                                                                                 
+      190 +        </ul>                                                                                              
+      191 +                                                                                                           
+      192 +        <h2>10. Changes to This Privacy Policy</h2>                                                        
+      193 +        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page wit
+          +h an updated &ldquo;Last updated&rdquo; date at the top. We encourage you to review this page periodically.
+          + Continued use of the App after changes constitutes acceptance of the revised policy.</p>                  
+      194 +        <p>If we ever make material changes to our data practices (for example, if we begin collecting data
+          + in the future), we will provide prominent notice and obtain any required consents, including verifiable pa
+          +rental consent as required by COPPA.</p>                                                                   
+      195 +                                                                                                           
+      196 +        <h2>11. Contact Us</h2>                                                                            
+      197 +        <p>If you have any questions, concerns, or requests regarding this Privacy Policy, your child&rsquo
+          +;s privacy, or the App, please contact us at:</p>                                                          
+      198 +        <p><strong>Fadi Masud</strong><br>                                                                 
+      199 +        Email: <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>                    
+      200 +        <p>We will respond to all inquiries within 30 days.</p>                                            
+      201 +                                                                                                           
+      202          <div class="footer">
+      136 -            &copy; 2026 Fadi Masud. All rights reserved.                                                   
+      203 +            &copy; 2026 Fadi Masud. All rights reserved.<br>                                               
+      204 +            <a href="terms-of-use.html">Terms of Use</a> &middot; <a href="privacy-policy.html">Privacy Pol
+          +icy</a>                                                                                                    
+      205          </div>
+      206      </div>
+      207  </body>
+
+⏺ Write(docs/terms-of-use.html)                                       
+  ⎿  Wrote 205 lines to docs/terms-of-use.html                     
+       1 <!DOCTYPE html>
+       2 <html lang="en">                
+       3 <head>
+       4     <meta charset="UTF-8">                                                                                          
+       5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       6     <title>Terms of Use — Kids Story Galaxy</title>                                                                 
+       7     <style>                                                               
+       8         * { margin: 0; padding: 0; box-sizing: border-box; }
+       9         body {
+      10             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+     … +195 lines (ctrl+o to expand)
+
+⏺ Both files are saved locally. Now here's the HTML for you to copy-paste into GitHub. You need to update the existing
+  privacy policy AND create a new terms-of-use page.               
+                       
+  ---                                    
+  Step 1: Update Privacy Policy on GitHub
+                                                                                                                             
+  1. Go to github.com/FadiMasud/KidsStoryGalaxy
+  2. Click docs → privacy-policy.html → pencil icon (edit)                                                                   
+  3. Select all the existing content (Cmd+A) and delete it                         
+  4. Paste this new privacy policy:
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Privacy Policy — Kids Story Galaxy</title>
+      <style>
           * { margin: 0; padding: 0; box-sizing: border-box; }
           body {
               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-              line-height: 1.6;
+              line-height: 1.7;
               color: #333;
               background: #fafafa;
               padding: 20px;
           }
           .container {
-              max-width: 680px;
+              max-width: 720px;
               margin: 0 auto;
               background: #fff;
-              padding: 32px 28px;
+              padding: 36px 32px;
               border-radius: 12px;
               box-shadow: 0 2px 12px rgba(0,0,0,0.08);
           }
           h1 {
-              font-size: 1.6em;
+              font-size: 1.7em;
               margin-bottom: 4px;
               color: #1a1a2e;
           }
           .subtitle {
               color: #888;
               font-size: 0.9em;
-              margin-bottom: 24px;
+              margin-bottom: 28px;
           }
           h2 {
-              font-size: 1.15em;
-              margin-top: 24px;
-              margin-bottom: 8px;
+              font-size: 1.2em;
+              margin-top: 28px;
+              margin-bottom: 10px;
               color: #1a1a2e;
           }
           p, li {
@@ -42,30 +377,47 @@
               margin-bottom: 10px;
           }
           ul {
-              padding-left: 20px;
-              margin-bottom: 12px;
+              padding-left: 22px;
+              margin-bottom: 14px;
           }
           a { color: #4a90d9; text-decoration: none; }
           a:hover { text-decoration: underline; }
           .highlight {
               background: #f0f7ff;
               border-left: 3px solid #4a90d9;
-              padding: 12px 16px;
+              padding: 14px 18px;
               border-radius: 6px;
-              margin: 16px 0;
+              margin: 18px 0;
+          }
+          .pricing-table {
+              width: 100%;
+              border-collapse: collapse;
+              margin: 14px 0;
+              font-size: 0.93em;
+          }
+          .pricing-table th, .pricing-table td {
+              text-align: left;
+              padding: 8px 12px;
+              border-bottom: 1px solid #eee;
+          }
+          .pricing-table th {
+              background: #f8f9fb;
+              font-weight: 600;
+              color: #1a1a2e;
           }
           .footer {
-              margin-top: 32px;
-              padding-top: 16px;
+              margin-top: 36px;
+              padding-top: 18px;
               border-top: 1px solid #eee;
               font-size: 0.85em;
               color: #999;
               text-align: center;
           }
+          .footer a { color: #999; }
           @media (max-width: 480px) {
               body { padding: 12px; }
-              .container { padding: 20px 16px; }
-              h1 { font-size: 1.35em; }
+              .container { padding: 22px 16px; }
+              h1 { font-size: 1.4em; }
           }
       </style>
   </head>
@@ -75,73 +427,422 @@
           <p class="subtitle">Kids Story Galaxy &middot; Last updated: February 14, 2026</p>
 
           <div class="highlight">
-              <strong>Summary:</strong> Kids Story Galaxy does not collect, store, or share any personal data. All app data
-  stays on your device.
+              <strong>Summary:</strong> Kids Story Galaxy does <strong>not</strong> collect, store, transmit, or share any
+  personal data. All app data stays on your device. We have no servers, no accounts, and no tracking.
           </div>
 
           <h2>1. About This App</h2>
-          <p>Kids Story Galaxy is an interactive storybook app designed for children ages 3&ndash;12. It is developed by Fadi
-   Masud and is available on the Apple App Store.</p>
+          <p>Kids Story Galaxy ("the App") is an interactive storybook application designed for children ages 3&ndash;12,
+  featuring narrated stories, mini-games, coloring activities, and achievement badges. The App is developed and operated
+  by:</p>
+          <p><strong>Fadi Masud</strong><br>
+          Email: <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>
+          <p>The App is available on the Apple App Store and is intended primarily for use by children under the supervision
+  of a parent or legal guardian.</p>
 
-          <h2>2. Data Collection</h2>
-          <p>We do <strong>not</strong> collect any personal information from users, including children. Specifically:</p>
+          <h2>2. Information We Collect</h2>
+          <p>We do <strong>not</strong> collect any personal information from any user, including children. Specifically:</p>
           <ul>
-              <li>No names, email addresses, or account creation required</li>
-              <li>No location data collected</li>
-              <li>No photos, contacts, or device identifiers accessed</li>
-              <li>No analytics or tracking SDKs included</li>
-              <li>No advertising of any kind</li>
-              <li>No third-party data-collection services</li>
+              <li>No names, email addresses, phone numbers, or physical addresses</li>
+              <li>No user accounts, registration, or login of any kind</li>
+              <li>No photographs, videos, or audio recordings</li>
+              <li>No contacts or address book access</li>
+              <li>No location or geolocation data</li>
+              <li>No device identifiers, IP addresses, or persistent identifiers</li>
+              <li>No browsing history or search queries</li>
+              <li>No cookies, web beacons, or similar technologies</li>
+              <li>No analytics, diagnostics, or usage data transmitted off-device</li>
           </ul>
 
           <h2>3. Local Data Storage</h2>
-          <p>The app stores the following data <strong>locally on your device only</strong> to provide its features:</p>
+          <p>To provide its features, the App stores the following data <strong>locally on your device only</strong>:</p>
           <ul>
-              <li>Reading progress and earned stars</li>
-              <li>Coloring masterpiece images</li>
-              <li>Achievement badges and reading streaks</li>
-              <li>User preferences (language, theme, narration settings)</li>
+              <li>Reading progress, earned stars, and game scores</li>
+              <li>Coloring artwork saved as images</li>
+              <li>Achievement badges and reading streak history</li>
+              <li>User preferences (selected language, theme, age group, narration settings)</li>
+              <li>Subscription status (verified locally via Apple StoreKit)</li>
           </ul>
-          <p>This data is never transmitted off your device. It can be removed by deleting the app.</p>
+          <p>This data is stored using standard iOS mechanisms (UserDefaults and the app's Documents directory). It is
+  <strong>never transmitted, uploaded, or shared</strong> with any server, service, or third party. All local data can be
+  completely removed by deleting the App from your device.</p>
 
-          <h2>4. Children's Privacy (COPPA)</h2>
-          <p>Kids Story Galaxy is designed with children's privacy as a top priority. We comply with the Children's Online
-  Privacy Protection Act (COPPA) and similar regulations worldwide:</p>
+          <h2>4. Children&rsquo;s Privacy (COPPA Compliance)</h2>
+          <p>Kids Story Galaxy is designed for children and is listed in the Kids category on the Apple App Store. We take
+  children&rsquo;s privacy extremely seriously and fully comply with the Children&rsquo;s Online Privacy Protection Act
+  (COPPA), the EU General Data Protection Regulation (GDPR) as it applies to children, and Apple&rsquo;s guidelines for Kids
+  category apps.</p>
           <ul>
-              <li>No personal information is collected from children (or any user)</li>
-              <li>No user accounts or login required</li>
-              <li>No social features, chat, or user-generated content shared online</li>
-              <li>No behavioral tracking or profiling</li>
+              <li><strong>No personal information is collected</strong> from children or any user &mdash; not even anonymized
+   or aggregated data</li>
+              <li><strong>No user accounts or login</strong> are required or available</li>
+              <li><strong>No social features</strong> &mdash; no chat, messaging, forums, user-generated content sharing, or
+  communication with other users</li>
+              <li><strong>No behavioral tracking or profiling</strong> of any kind</li>
+              <li><strong>No third-party analytics or advertising SDKs</strong> are included in the App</li>
+              <li><strong>No data is transmitted</strong> to any external server, including our own</li>
+              <li>Children <strong>cannot make any personal information publicly available</strong> through the App</li>
+              <li>We do <strong>not</strong> condition a child&rsquo;s participation in any activity on providing personal
+  information</li>
           </ul>
+          <p>Since we collect absolutely no personal data, there is no data to review, delete, or restrict. However, if you
+  are a parent or guardian and have any concerns, you may contact us at <a 
+  href="mailto:support@cryptolive.blog">support@cryptolive.blog</a> and we will promptly address your inquiry.</p>
 
-          <h2>5. Subscriptions</h2>
-          <p>Kids Story Galaxy offers optional auto-renewable subscriptions to unlock all stories. Subscriptions are managed
-  entirely by Apple through the App Store:</p>
+          <h2>5. Parental Rights</h2>
+          <p>As a parent or legal guardian, you have the right to:</p>
           <ul>
-              <li><strong>Monthly:</strong> $6.99/month</li>
-              <li><strong>Quarterly:</strong> $14.99 every 3 months</li>
-              <li><strong>Semi-Annual:</strong> $24.99 every 6 months</li>
-              <li><strong>Annual:</strong> $34.99/year</li>
+              <li>Review any personal information collected from your child &mdash; we collect none</li>
+              <li>Request deletion of any personal information &mdash; we store none</li>
+              <li>Refuse further collection of your child&rsquo;s information &mdash; we collect none</li>
+              <li>Remove all locally stored app data by deleting the App from your device</li>
           </ul>
-          <p>Payment is charged to your Apple ID account at confirmation of purchase. Subscriptions auto-renew unless turned
-  off at least 24 hours before the end of the current period. You can manage or cancel subscriptions in your device's
-  Settings &gt; Apple ID &gt; Subscriptions.</p>
-          <p>We do not have access to your payment information. All transactions are processed securely by Apple.</p>
+          <p>Purchasing features (subscriptions) are handled exclusively through Apple&rsquo;s App Store, which requires
+  parental authentication (password, Face ID, or Touch ID). The App supports Apple&rsquo;s Ask to Buy feature for
+  children&rsquo;s accounts managed through Family Sharing.</p>
 
           <h2>6. Third-Party Services</h2>
-          <p>The app does not integrate any third-party analytics, advertising, or tracking services. The only external
-  service used is the Apple App Store for subscription processing.</p>
+          <p>The App does <strong>not</strong> integrate any third-party services for analytics, advertising, tracking, or
+  data collection. The only external service interaction is:</p>
+          <ul>
+              <li><strong>Apple App Store / StoreKit:</strong> Used solely for processing subscription purchases and
+  verifying subscription status. This is handled entirely by Apple&rsquo;s operating system. We do not have access to your
+  payment information, Apple ID, or any account details.</li>
+          </ul>
+          <p>No data about your child or your usage of the App is shared with any third party, including Apple (beyond what
+  Apple collects independently through its own operating system and App Store).</p>
 
-          <h2>7. Changes to This Policy</h2>
-          <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated
-  "Last updated" date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+          <h2>7. Subscriptions</h2>
+          <p>Kids Story Galaxy offers optional auto-renewable subscriptions to unlock additional content. Subscriptions are
+  managed entirely by Apple through the App Store.</p>
+          <table class="pricing-table">
+              <tr><th>Plan</th><th>Price</th><th>Billing Period</th></tr>
+              <tr><td>Monthly</td><td>$6.99</td><td>Every month</td></tr>
+              <tr><td>Quarterly</td><td>$14.99</td><td>Every 3 months</td></tr>
+              <tr><td>Semi-Annual</td><td>$24.99</td><td>Every 6 months</td></tr>
+              <tr><td>Annual</td><td>$34.99</td><td>Every year</td></tr>
+          </table>
+          <ul>
+              <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
+              <li>Subscriptions automatically renew unless canceled at least 24 hours before the end of the current
+  period.</li>
+              <li>Your account will be charged for renewal within 24 hours prior to the end of the current period.</li>
+              <li>You can manage or cancel your subscription at any time in your device&rsquo;s Settings &gt; Apple ID &gt;
+  Subscriptions.</li>
+              <li>No cancellation of the current subscription period is permitted once purchased.</li>
+          </ul>
+          <p>We do not have access to your payment information, credit card details, or Apple ID. All transactions are
+  processed securely by Apple.</p>
 
-          <h2>8. Contact</h2>
-          <p>If you have questions about this privacy policy or the app, please contact us at:</p>
-          <p><a href="mailto:fadi.masud@gmail.com">fadi.masud@gmail.com</a></p>
+          <h2>8. Data Security</h2>
+          <p>Since we do not collect or transmit any data, there is no risk of data breach from our services. All data stored
+   locally on your device is protected by your device&rsquo;s built-in security features (passcode, Face ID, Touch ID,
+  encryption).</p>
+
+          <h2>9. International Users (GDPR &amp; Other Regulations)</h2>
+          <p>For users in the European Economic Area (EEA), United Kingdom, or other jurisdictions with data protection
+  laws:</p>
+          <ul>
+              <li><strong>Data Controller:</strong> Fadi Masud (<a 
+  href="mailto:support@cryptolive.blog">support@cryptolive.blog</a>)</li>
+              <li><strong>Legal Basis for Processing:</strong> We do not process any personal data. No legal basis is
+  required as no data collection occurs.</li>
+              <li><strong>Data Subject Rights:</strong> You have the right to access, rectify, erase, restrict, port, and
+  object to the processing of your personal data. Since we collect no personal data, these rights are satisfied by
+  default.</li>
+              <li><strong>International Transfers:</strong> No personal data is transferred internationally or to any
+  server.</li>
+              <li><strong>Right to Complain:</strong> You may lodge a complaint with your local data protection supervisory
+  authority at any time.</li>
+              <li><strong>Automated Decision-Making:</strong> The App does not perform any automated decision-making or
+  profiling.</li>
+          </ul>
+
+          <h2>10. Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated
+  &ldquo;Last updated&rdquo; date at the top. We encourage you to review this page periodically. Continued use of the App
+  after changes constitutes acceptance of the revised policy.</p>
+          <p>If we ever make material changes to our data practices (for example, if we begin collecting data in the future),
+   we will provide prominent notice and obtain any required consents, including verifiable parental consent as required by
+  COPPA.</p>
+
+          <h2>11. Contact Us</h2>
+          <p>If you have any questions, concerns, or requests regarding this Privacy Policy, your child&rsquo;s privacy, or
+  the App, please contact us at:</p>
+          <p><strong>Fadi Masud</strong><br>
+          Email: <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>
+          <p>We will respond to all inquiries within 30 days.</p>
 
           <div class="footer">
-              &copy; 2026 Fadi Masud. All rights reserved.
+              &copy; 2026 Fadi Masud. All rights reserved.<br>
+              <a href="terms-of-use.html">Terms of Use</a> &middot; <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+      </div>
+  </body>
+  </html>
+
+  5. Click Commit changes
+
+  ---
+  Step 2: Create Terms of Use on GitHub
+
+  1. Go back to github.com/FadiMasud/KidsStoryGalaxy
+  2. Click docs folder → Add file → Create new file
+  3. Name it: terms-of-use.html
+  4. Paste this terms of use:
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Terms of Use — Kids Story Galaxy</title>
+      <style>
+          * { margin: 0; padding: 0; box-sizing: border-box; }
+          body {
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+              line-height: 1.7;
+              color: #333;
+              background: #fafafa;
+              padding: 20px;
+          }
+          .container {
+              max-width: 720px;
+              margin: 0 auto;
+              background: #fff;
+              padding: 36px 32px;
+              border-radius: 12px;
+              box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+          }
+          h1 {
+              font-size: 1.7em;
+              margin-bottom: 4px;
+              color: #1a1a2e;
+          }
+          .subtitle {
+              color: #888;
+              font-size: 0.9em;
+              margin-bottom: 28px;
+          }
+          h2 {
+              font-size: 1.2em;
+              margin-top: 28px;
+              margin-bottom: 10px;
+              color: #1a1a2e;
+          }
+          p, li {
+              font-size: 0.95em;
+              margin-bottom: 10px;
+          }
+          ul, ol {
+              padding-left: 22px;
+              margin-bottom: 14px;
+          }
+          a { color: #4a90d9; text-decoration: none; }
+          a:hover { text-decoration: underline; }
+          .highlight {
+              background: #f0f7ff;
+              border-left: 3px solid #4a90d9;
+              padding: 14px 18px;
+              border-radius: 6px;
+              margin: 18px 0;
+          }
+          .pricing-table {
+              width: 100%;
+              border-collapse: collapse;
+              margin: 14px 0;
+              font-size: 0.93em;
+          }
+          .pricing-table th, .pricing-table td {
+              text-align: left;
+              padding: 8px 12px;
+              border-bottom: 1px solid #eee;
+          }
+          .pricing-table th {
+              background: #f8f9fb;
+              font-weight: 600;
+              color: #1a1a2e;
+          }
+          .footer {
+              margin-top: 36px;
+              padding-top: 18px;
+              border-top: 1px solid #eee;
+              font-size: 0.85em;
+              color: #999;
+              text-align: center;
+          }
+          .footer a { color: #999; }
+          @media (max-width: 480px) {
+              body { padding: 12px; }
+              .container { padding: 22px 16px; }
+              h1 { font-size: 1.4em; }
+          }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+          <h1>Terms of Use</h1>
+          <p class="subtitle">Kids Story Galaxy &middot; Last updated: February 14, 2026</p>
+
+          <div class="highlight">
+              Please read these Terms of Use carefully before using Kids Story Galaxy. By downloading, installing, or using
+  the App, you agree to be bound by these terms. If you do not agree, do not use the App.
+          </div>
+
+          <h2>1. Agreement</h2>
+          <p>These Terms of Use (&ldquo;Terms&rdquo;) constitute a legal agreement between you (&ldquo;User,&rdquo;
+  &ldquo;you,&rdquo; or &ldquo;your&rdquo;) and <strong>Fadi Masud</strong> (&ldquo;Developer,&rdquo; &ldquo;we,&rdquo;
+  &ldquo;us,&rdquo; or &ldquo;our&rdquo;) regarding your use of the Kids Story Galaxy application (&ldquo;the
+  App&rdquo;).</p>
+          <p>This agreement is between you and the Developer only, and <strong>not</strong> with Apple Inc.
+  (&ldquo;Apple&rdquo;). The Developer, not Apple, is solely responsible for the App and its content.</p>
+
+          <h2>2. Use by Children</h2>
+          <p>Kids Story Galaxy is designed for children ages 3&ndash;12. If you are a parent or legal guardian allowing your
+  child to use the App, you agree to these Terms on behalf of your child. You are responsible for supervising your
+  child&rsquo;s use of the App.</p>
+          <p>By using the App or allowing your child to use it, you represent that you are at least 18 years old (or the age
+  of majority in your jurisdiction) or that you have the consent of a parent or legal guardian.</p>
+
+          <h2>3. License</h2>
+          <p>Subject to these Terms, the Developer grants you a limited, non-exclusive, non-transferable, revocable license
+  to download, install, and use the App on Apple-branded devices that you own or control, as permitted by the Apple Media
+  Services Terms and Conditions. This license does not allow you to use the App on any device that you do not own or control,
+   and you may not distribute or make the App available over a network where it could be used by multiple devices at the same
+   time, except as permitted by Apple&rsquo;s Usage Rules.</p>
+
+          <h2>4. Content and Intellectual Property</h2>
+          <p>All content in the App &mdash; including stories, illustrations, narration audio, animations, game designs,
+  character designs, music, and user interface elements &mdash; is owned by the Developer and is protected by copyright,
+  trademark, and other intellectual property laws.</p>
+          <p>You may not:</p>
+          <ul>
+              <li>Copy, modify, distribute, sell, or lease any part of the App or its content</li>
+              <li>Reverse engineer, decompile, or attempt to extract the source code of the App</li>
+              <li>Use the App&rsquo;s content for any commercial purpose</li>
+              <li>Remove or alter any copyright, trademark, or other proprietary notices</li>
+          </ul>
+          <p>Coloring artwork created by users within the App may be saved and shared for personal, non-commercial use.</p>
+
+          <h2>5. Subscriptions and Payments</h2>
+          <p>The App offers optional auto-renewable subscription plans that unlock additional content including stories, game
+   levels, and coloring pages. Free content (the first two items in each category) is available without a subscription.</p>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.1 Subscription Plans</h3>
+          <table class="pricing-table">
+              <tr><th>Plan</th><th>Price</th><th>Billing Period</th></tr>
+              <tr><td>Monthly</td><td>$6.99</td><td>Every month</td></tr>
+              <tr><td>Quarterly</td><td>$14.99</td><td>Every 3 months</td></tr>
+              <tr><td>Semi-Annual</td><td>$24.99</td><td>Every 6 months</td></tr>
+              <tr><td>Annual</td><td>$34.99</td><td>Every year</td></tr>
+          </table>
+          <p>Prices are in US dollars. Prices in other countries may vary and actual charges may be converted to your local
+  currency depending on your country of residence.</p>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.2 Billing and Renewal</h3>
+          <ul>
+              <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
+              <li>Subscriptions <strong>automatically renew</strong> unless you cancel at least 24 hours before the end of
+  the current billing period.</li>
+              <li>Your account will be charged for renewal within 24 hours prior to the end of the current period, at the
+  same price you originally selected.</li>
+              <li>No cancellation of the current subscription period is allowed once the purchase is confirmed.</li>
+          </ul>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.3 Managing Your
+  Subscription</h3>
+          <p>You can manage or cancel your subscription at any time through your device&rsquo;s <strong>Settings &gt; Apple
+  ID &gt; Subscriptions</strong>. You can also manage subscriptions within the App through the Parent Dashboard.</p>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.4 Price Changes</h3>
+          <p>We may change subscription prices from time to time. Any price increase will take effect for billing periods
+  starting after the change and, where required, Apple will notify you and may require your explicit consent to continue at
+  the new price.</p>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.5 Refunds</h3>
+          <p>All purchases are processed by Apple. To request a refund, please visit <a 
+  href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> or contact Apple
+  Support. We do not process refunds directly.</p>
+
+          <h3 style="font-size:1.05em; margin-top:16px; margin-bottom:8px; color:#1a1a2e;">5.6 Family Sharing</h3>
+          <p>Subscriptions may be shared with family members through Apple&rsquo;s Family Sharing feature, subject to
+  Apple&rsquo;s Family Sharing terms and limitations.</p>
+
+          <h2>6. Age-Appropriate Content</h2>
+          <p>We are committed to providing safe, age-appropriate content for children ages 3&ndash;12. All stories,
+  illustrations, games, and activities are designed to be educational, entertaining, and suitable for young audiences. The
+  App contains no violence, mature themes, or inappropriate content.</p>
+
+          <h2>7. Maintenance and Support</h2>
+          <p>The Developer is solely responsible for providing maintenance and support for the App. Apple has no obligation
+  whatsoever to furnish any maintenance or support services with respect to the App. For support inquiries, please contact:
+  <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>
+
+          <h2>8. Warranty Disclaimer</h2>
+          <p>The App is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo; without warranties of any kind, either
+  express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose,
+  and non-infringement.</p>
+          <p>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple and Apple
+  will refund the purchase price (if any) for the App. To the maximum extent permitted by applicable law, Apple will have no
+  other warranty obligation whatsoever with respect to the App.</p>
+
+          <h2>9. Limitation of Liability</h2>
+          <p>To the fullest extent permitted by applicable law, the Developer shall not be liable for any indirect,
+  incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or
+  indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from your use or inability to use the
+  App.</p>
+
+          <h2>10. Product Claims</h2>
+          <p>The Developer, not Apple, is responsible for addressing any claims by you or any third party relating to the App
+   or your possession and/or use of the App, including but not limited to: (a) product liability claims; (b) any claim that
+  the App fails to conform to any applicable legal or regulatory requirement; and (c) claims arising under consumer
+  protection, privacy, or similar legislation.</p>
+
+          <h2>11. Intellectual Property Claims</h2>
+          <p>In the event of any third-party claim that the App or your possession and use of the App infringes that third
+  party&rsquo;s intellectual property rights, the Developer, not Apple, will be solely responsible for the investigation,
+  defense, settlement, and discharge of any such intellectual property infringement claim.</p>
+
+          <h2>12. Legal Compliance</h2>
+          <p>You represent and warrant that: (a) you are not located in a country that is subject to a U.S. Government
+  embargo or that has been designated by the U.S. Government as a &ldquo;terrorist supporting&rdquo; country; and (b) you are
+   not listed on any U.S. Government list of prohibited or restricted parties.</p>
+
+          <h2>13. Third-Party Terms</h2>
+          <p>You must comply with applicable third-party terms of agreement when using the App, including the Apple Media
+  Services Terms and Conditions governing your use of the App Store.</p>
+
+          <h2>14. Apple as Third-Party Beneficiary</h2>
+          <p>You acknowledge and agree that Apple, and Apple&rsquo;s subsidiaries, are third-party beneficiaries of these
+  Terms, and that upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the
+  right) to enforce these Terms against you as a third-party beneficiary thereof.</p>
+
+          <h2>15. Modifications to the App</h2>
+          <p>We reserve the right to modify, update, or discontinue the App or any part of it at any time without prior
+  notice. We may add, change, or remove content, features, or subscription tiers. We shall not be liable to you or any third
+  party for any modification, suspension, or discontinuance of the App.</p>
+
+          <h2>16. Changes to These Terms</h2>
+          <p>We may revise these Terms from time to time. The most current version will always be posted on this page with
+  the &ldquo;Last updated&rdquo; date at the top. By continuing to use the App after changes become effective, you agree to
+  be bound by the revised Terms. If you do not agree to the new terms, please stop using the App.</p>
+
+          <h2>17. Governing Law</h2>
+          <p>These Terms shall be governed by and construed in accordance with the laws of the United States and the State of
+   Virginia, without regard to its conflict of law provisions.</p>
+
+          <h2>18. Severability</h2>
+          <p>If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or
+  eliminated to the minimum extent necessary so that the remaining provisions shall remain in full force and effect.</p>
+
+          <h2>19. Contact Us</h2>
+          <p>If you have any questions, complaints, or claims regarding the App or these Terms, please contact:</p>
+          <p><strong>Fadi Masud</strong><br>
+          Email: <a href="mailto:support@cryptolive.blog">support@cryptolive.blog</a></p>
+
+          <div class="footer">
+              &copy; 2026 Fadi Masud. All rights reserved.<br>
+              <a href="terms-of-use.html">Terms of Use</a> &middot; <a href="privacy-policy.html">Privacy Policy</a>
           </div>
       </div>
   </body>
